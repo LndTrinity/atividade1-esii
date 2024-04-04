@@ -7,6 +7,7 @@ Você será avaliado por conseguir realizar as atividades propostas e também (t
 ## 🎥Cenário e Atividade🎥
 
 - [ ] O grupo deverá desenvolver as funções não implementadas que constam no código, cada membro resolvendo pelo menos uma.
+- [ ] Poderá ser desenvolvida a mesma solução, em outra linguagem de programação, de escolha do grupo.
 - [ ] É necessário haver commits de todos os membros do grupo.
 - [ ] Para realização desta atividade o grupo deverá forkar/clonar o repositório da atividade.
 - [ ] A branch de desenvolvimento da funcionalidade deverá ser criada a partir da ``branch`` **dev**, e deverá seguir uma convenção simples de `feature/**`, onde '**' indica o nome da funcionalidade que está sendo desenvolvida.
