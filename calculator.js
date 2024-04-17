@@ -35,9 +35,9 @@ while (true) {
     if (operacao == 1) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
         const v2 = Number(prompt("Digite o segundo Número: "))
-        sum(v1, v2)
+        const resultadoSoma = sum(v1, v2)
         console.log()
-        console.log("Resultado: " + v1 + " + " + v2 + " = " + soma)
+        console.log("Resultado: " + v1 + " + " + v2 + " = " + resultadoSoma)
         console.log()
     } else if (operacao == 2) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
