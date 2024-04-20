@@ -16,12 +16,16 @@ function sub(v1, v2) {
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {
     divisao = v1 / v2
-    
+
     return
 }
 
 // retorna o valor da multiplicação entre os dois parâmetros
-function mult(v1, v2) {}
+function mult(v1, v2) {
+    multiplicacao =  v1 * v2
+    
+    return
+}
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
 function square(v1) {}
