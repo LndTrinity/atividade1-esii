@@ -17,7 +17,7 @@ function sub(v1, v2) {
 function div(v1, v2) {
     divisao = v1 / v2
 
-    return
+    return divisao
 }
 
 // retorna o valor da multiplicação entre os dois parâmetros
@@ -65,9 +65,9 @@ while (true) {
     } else if (operacao == 3) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
         const v2 = Number(prompt("Digite o segundo Número: "))
-        div(v1, v2)
+        const resultadoDivisao = div(v1, v2)
         console.log()
-        console.log("Resultado: " + v1 + " / " + v2 + " = " + divisao)
+        console.log("Resultado: " + v1 + " / " + v2 + " = " + resultadoDivisao)
         console.log()
     } else if (operacao == 4) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
