@@ -28,7 +28,11 @@ function mult(v1, v2) {
 }
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
+function square(v1) {
+    raiz = Math.sqrt(v1)
+
+    return
+}
 
 
 
