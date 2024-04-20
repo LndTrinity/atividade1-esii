@@ -31,7 +31,7 @@ function mult(v1, v2) {
 function square(v1) {
     raiz = Math.sqrt(v1)
 
-    return
+    return raiz
 }
 
 
@@ -79,9 +79,9 @@ while (true) {
     } else if (operacao == 5) {
         const v1 = Number(prompt("Digite o Número: "))
         
-        square(v1)
+        const resultadoMultiplicacao = square(v1)
         console.log()
-        console.log("Resultado da raiz quadrada de " + v1 +  " : " + raiz)
+        console.log("Resultado da raiz quadrada de " + v1 +  " : " + resultadoMultiplicacao)
         console.log() 
     }
     else if (operacao == 6) {
