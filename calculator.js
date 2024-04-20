@@ -58,9 +58,9 @@ while (true) {
     } else if (operacao == 2) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
         const v2 = Number(prompt("Digite o segundo Número: "))
-        sub(v1, v2)
+        const resultadoSubtraçao = sub(v1, v2)
         console.log()
-        console.log("Resultado: " + v1 + " - " + v2 + " = " + subtracao)
+        console.log("Resultado: " + v1 + " - " + v2 + " = " + resultadoSubtraçao)
         console.log()
     } else if (operacao == 3) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
