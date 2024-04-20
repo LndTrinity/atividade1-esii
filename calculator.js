@@ -24,7 +24,7 @@ function div(v1, v2) {
 function mult(v1, v2) {
     multiplicacao =  v1 * v2
     
-    return
+    return multiplicacao
 }
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
@@ -72,9 +72,9 @@ while (true) {
     } else if (operacao == 4) {
         const v1 = Number(prompt("Digite o primeiro Número: "))
         const v2 = Number(prompt("Digite o segundo Número: "))
-        mult(v1, v2)
+        const resultadoMultiplicacao = mult(v1, v2)
         console.log()
-        console.log("Resultado: " + v1 + " * " + v2 + " = " + multiplicacao)
+        console.log("Resultado: " + v1 + " * " + v2 + " = " + resultadoMultiplicacao)
         console.log()
     } else if (operacao == 5) {
         const v1 = Number(prompt("Digite o Número: "))
